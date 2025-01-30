@@ -5,6 +5,7 @@ import Link from "next/link"
 import { Github, Linkedin, Mail } from "lucide-react"
 import MovingBackground from "./components/MovingBackground"
 import type React from "react" // Import React
+import { Analytics } from "@vercel/analytics/react"
 
 const outfit = Outfit({ subsets: ["latin"] })
 
