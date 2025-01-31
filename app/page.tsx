@@ -19,7 +19,7 @@ export default function Home() {
 
       <div className="mb-12">
         <a
-          href="https://drive.google.com/file/d/13Rd1D40NHhFFnpVVM3xCdlrrjlXVA87-/view?usp=sharing"
+          href="https://drive.google.com/file/d/1BbnyMnUKauzlujojg6h_QpfUrvHw09Qc/view?usp=sharing"
           target="_blank"
           download
           className="inline-flex items-center px-6 py-3 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition-colors text-sm sm:text-base"
