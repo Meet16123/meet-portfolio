@@ -4,6 +4,20 @@ import { ArrowUpRight } from "lucide-react"
 export default function Portfolio() {
   const projects = [
     {
+      title: "LinkedIn App",
+      tech: "Microservices, Kafka, GKE, Kubernetes, Neo4j",
+      description:
+        "Spring Boot microservices with Kafka eventing, API Gateway (JWT, TLS via Ingress), Docker on GKE, PostgreSQL for transactions, and Neo4j for the social graph.",
+      link: "/portfolio/linkedin-app",
+    },
+    {
+      title: "Signed & Trapped",
+      tech: "React, Flask, Cohere, Pinecone, GCP",
+      description:
+        "Hackathon project to demystify legal docs using Cohere embeddings + Pinecone for clause matching and fairness scores; deployed on Vercel and Google Cloud.",
+      link: "/portfolio/signed-and-trapped",
+    },
+    {
       title: "Ride Sharing App",
       tech: "Spring Boot, PostgreSQL, AWS",
       description: "A scalable ride-sharing platform with geospatial capabilities and secure authentication.",

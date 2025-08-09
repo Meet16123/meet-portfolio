@@ -4,26 +4,25 @@ export default function About() {
       <h1 className="text-4xl sm:text-5xl font-bold mb-8 text-center text-gray-800">About Me</h1>
 
       <div className="space-y-6 text-lg text-gray-700 mb-12">
-        {/* Introduction */}
+        {/* Introduction (simplified) */}
         <p>
-          I'm a <span className="font-semibold text-gray-900">Computer Science student at Algoma University in Toronto</span>, with a deep passion for
-          <span className="font-semibold text-gray-900"> software engineering and problem-solving</span>. My journey in tech has been driven by a desire to build 
-          <span className="font-semibold text-gray-900"> scalable, efficient, and impactful applications</span> that push the boundaries of innovation.
+          I'm a <span className="font-semibold text-gray-900">Computer Science student at Algoma University in Toronto</span>, passionate about building
+          <span className="font-semibold text-gray-900"> scalable, efficient, and impactful software</span>.
         </p>
 
-        {/* Technical Expertise */}
+        {/* Focus areas (concise) */}
         <p>
-          I specialize in <span className="font-semibold text-gray-900">full-stack development</span>, working with technologies like 
-          <span className="font-semibold text-gray-900"> Java, Spring Boot, React.js, Node.js, and microservices</span>. I love tackling 
-          <span className="font-semibold text-gray-900"> complex problems, optimizing systems</span>, and contributing to projects that create real-world value.
+          I’m a <span className="font-semibold text-gray-900">Fullstack Developer</span> with strong interests in
+          <span className="font-semibold text-gray-900"> DevOps</span> and <span className="font-semibold text-gray-900">Security</span>—working with
+          <span className="font-semibold text-gray-900"> Java, Spring Boot, React.js, Kubernetes, GCP, AWS, Ansible, Node.js, Docker, and Microservices</span>.
         </p>
 
-        {/* Experience & Projects */}
+        {/* Experience & Projects (concise) */}
         <p>
-          Beyond coursework, I’ve gained <span className="font-semibold text-gray-900">hands-on experience</span> through internships, hackathons, and personal projects. 
-          I’ve built applications like a <span className="font-semibold text-gray-900">ride-sharing platform with geospatial queries</span>, 
-          a <span className="font-semibold text-gray-900">secure e-learning platform</span>, and a 
-          <span className="font-semibold text-gray-900"> contact management system</span>—all focusing on <span className="font-semibold text-gray-900">performance, security, and scalability</span>.
+          Through internships, hackathons, and personal projects, I’ve built systems like a <span className="font-semibold text-gray-900"> LinkedIn‑style social platform (microservices, Kafka, Neo4j)</span>, an
+          <span className="font-semibold text-gray-900"> Uber‑like ride‑sharing backend with geospatial matching</span>, and a
+          <span className="font-semibold text-gray-900"> secure e‑learning platform</span>—with a focus on
+          <span className="font-semibold text-gray-900"> performance, security, and scalability</span>.
         </p>
 
         {/* Photography Passion */}
@@ -49,5 +48,4 @@ export default function About() {
         </p>
       </div>
     </main>
-  );
-}
+  );}

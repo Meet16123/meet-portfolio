@@ -1,6 +1,26 @@
 export default function Projects() {
   const projects = [
     {
+      title: "LinkedIn App",
+      tech: "Microservices, Kafka, GKE, Kubernetes, Neo4j",
+      date: "Jul 2025",
+      details: [
+        "Built a LinkedIn-style social platform as Spring Boot microservices, fronted by a secure API Gateway (JWT, TLS via Ingress), containerized with Docker and deployed on GKE with zero-downtime rolling updates",
+        "Implemented Kafka for asynchronous, event-driven inter-service communication, where producers emit domain events and consumers react to update business state and trigger real-time notifications",
+        "Used PostgreSQL for transactional data and Neo4j GraphDB for the social graph, enabling fast first/second-degree queries and mutual-connection",
+      ],
+    },
+    {
+      title: "Signed & Trapped",
+      tech: "React, Flask, Cohere, Pinecone, GCP",
+      date: "Mar 2025",
+      details: [
+        "Built in a team of 4 at Canada’s largest AI Hackathon (700+ hackers) to empower individuals to understand legal documents",
+        "Used Cohere for embeddings and Pinecone for clause matching to detect hidden risks, return fairness scores, and offer plain-language explanations",
+        "Deployed on Vercel (frontend) and Google Cloud (backend); praised for its potential to reduce legal consultation costs and prevent exploitation of small businesse",
+      ],
+    },
+    {
       title: "Ride Sharing App",
       tech: "Springboot, PostgreSQL",
       date: "Aug 2024",

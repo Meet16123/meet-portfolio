@@ -4,6 +4,24 @@ import { ArrowUpRight } from "lucide-react"
 export default function Projects() {
   const projects = [
     {
+      title: "LinkedIn App",
+      tech: "Microservices, Kafka, GKE, Kubernetes, Neo4j",
+      date: "Jul 2025",
+      description:
+        "Spring Boot microservices behind a secure API Gateway (JWT, TLS Ingress), containerized with Docker and deployed on GKE with zero-downtime rolling updates. Kafka powers event-driven communication; PostgreSQL handles transactions; Neo4j enables fast social-graph queries.",
+      color: "bg-[#e0f2fe]",
+      link: "https://github.com/Meet16123/Linkedin-Application",
+    },
+    {
+      title: "Signed & Trapped",
+      tech: "React, Flask, Cohere, Pinecone, GCP",
+      date: "Mar 2025",
+      description:
+        "Built at a 700+ hacker AI hackathon to help people understand legal docs. Cohere embeddings + Pinecone for clause matching, fairness scoring, and plain-language explanations. Deployed on Vercel (frontend) and Google Cloud (backend).",
+      color: "bg-[#fef9c3]",
+      link: "https://github.com/nayanmapara/Signed-and-Trapped",
+    },
+    {
       title: "Ride Sharing App",
       tech: "Spring Boot, PostgreSQL, AWS",
       date: "Aug 2024",
