@@ -2,7 +2,6 @@ import type { Metadata } from "next"
 import { Outfit } from "next/font/google"
 import "./globals.css"
 import Link from "next/link"
-import { Github, Linkedin, Mail } from "lucide-react"
 import MovingBackground from "./components/MovingBackground"
 import type React from "react" // Import React
 import { Analytics } from "@vercel/analytics/react"
@@ -53,33 +52,8 @@ export default function RootLayout({
             </nav>
             {children}
           </div>
-          <footer className="relative z-10 py-8 text-center">
-            <div className="flex justify-center gap-8">
-              <Link
-                href="https://www.linkedin.com/in/meetmangroliya16123/"
-                className="text-gray-700 hover:text-gray-900 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Linkedin className="w-6 h-6" />
-                <span className="sr-only">LinkedIn</span>
-              </Link>
-              <Link
-                href="https://github.com/Meet16123"
-                className="text-gray-700 hover:text-gray-900 transition-colors"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Github className="w-6 h-6" />
-                <span className="sr-only">GitHub</span>
-              </Link>
-              <Link href="mailto:meet16123@gmail.com" className="text-gray-700 hover:text-gray-900 transition-colors">
-                <Mail className="w-6 h-6" />
-                <span className="sr-only">Email</span>
-              </Link>
-            </div>
-          </footer>
         </div>
+        <Analytics />
       </body>
     </html>
   )

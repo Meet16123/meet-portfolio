@@ -7,12 +7,12 @@ export default function Skills() {
     },
     {
       category: "Frameworks",
-      items: ["Spring Boot", "React.js", "Node.js", "Express", "JUnit", "Spring Cloud", "Hibernate"],
+      items: ["Spring Boot", "React.js", "Node.js", "Express", "JUnit", "Spring Cloud", "Hibernate", "Mockito", "Eureka"],
       color: "bg-green-100",
     },
     {
       category: "Tools",
-      items: ["Git", "AWS", "Docker", "IntelliJ IDEA", "Eclipse", "Maven", "Unix/Linux", "MS Office", "Agile", "Log4j", "SLF4J", "ELK Stack", "Zipkin", "Resilience4j"],
+      items: ["Git", "AWS", "Docker", "IntelliJ IDEA", "Eclipse", "Maven", "Unix/Linux", "MS Office", "Agile", "Log4j", "SLF4J", "ELK Stack", "Zipkin", "Resilience4j", "Kubernetes", "Google Cloud", "Ansible", "Jenkins", "Github Actions", "CI / CD"],
       color: "bg-yellow-100",
     },
     {
