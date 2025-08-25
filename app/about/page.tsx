@@ -1,10 +1,6 @@
-import SocialLinks from "../components/SocialLinks";
-
 export default function About() {
   return (
-    <>
-      <SocialLinks />
-      <main className="max-w-4xl mx-auto px-4 py-20">
+    <main className="max-w-4xl mx-auto px-4 py-20">
         <h1 className="text-4xl sm:text-5xl font-bold mb-8 text-center text-gray-800">
           About Me
         </h1>
@@ -116,6 +112,5 @@ export default function About() {
           </p>
         </div>
       </main>
-    </>
-  );
+  )
 }
